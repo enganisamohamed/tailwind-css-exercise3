@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Tailwind Landing Page</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- HEADER -->
+  <header class="w-full bg-white shadow-sm">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+      <h1 class="text-2xl md:text-3xl font-bold text-indigo-600">
+        ANIZAA-COMPANY
+      </h1>
+
+      <nav class="hidden md:flex gap-8 font-medium">
+        <a href="#" class="hover:text-indigo-600">Home</a>
+        <a href="#" class="hover:text-indigo-600">Features</a>
+        <a href="#" class="hover:text-indigo-600">Pricing</a>
+        <a href="#" class="hover:text-indigo-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="px-4 sm:px-6 lg:px-8 py-10">
+    <div class="max-w-7xl mx-auto">
+
+      <div class="
+        bg-gradient-to-r from-indigo-600 to-purple-600
+        rounded-2xl
+        min-h-[400px]
+        md:min-h-[500px]
+        flex items-center justify-center
+        text-center
+        px-6
+      ">
+
+        <div class="max-w-2xl text-white">
+          <h2 class="
+            text-4xl
+            sm:text-5xl
+            lg:text-6xl
+            font-bold
+            leading-tight
+          ">
+            Transform Your Business
+          </h2>
+
+          <p class="
+            mt-6
+            text-lg
+            sm:text-xl
+            text-gray-200
+          ">
+            Elevate your online presence with our cutting-edge solutions
+          </p>
+
+          <button class="
+            mt-8
+            bg-white
+            text-indigo-600
+            font-semibold
+            px-8 py-4
+            rounded-full
+            hover:scale-105
+            transition
+          ">
+            Get Started
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="py-16 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-6xl mx-auto">
+
+      <h2 class="text-3xl font-bold text-center mb-12">
+        Why Choose Us
+      </h2>
+
+      <div class="
+        grid
+        grid-cols-1
+        md:grid-cols-2
+        lg:grid-cols-3
+        gap-6
+      ">
+
+        <div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition">
+          <div class="text-3xl mb-4">⚡</div>
+          <h3 class="text-xl font-bold mb-3">Lightning Fast</h3>
+          <p class="text-gray-600">
+            Experience blazing fast performance with our optimized solutions.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition">
+          <div class="text-3xl mb-4">🛡️</div>
+          <h3 class="text-xl font-bold mb-3">Secure</h3>
+          <p class="text-gray-600">
+            Your data is protected with enterprise-grade security.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition">
+          <div class="text-3xl mb-4">💎</div>
+          <h3 class="text-xl font-bold mb-3">Premium Quality</h3>
+          <p class="text-gray-600">
+            Unmatched quality that sets us apart from competitors.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+    <div class="max-w-6xl mx-auto">
+
+      <h2 class="text-3xl font-bold text-center mb-12">
+        What Our Clients Say
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <div class="bg-white p-8 rounded-xl shadow">
+          <p class="text-gray-600 italic">
+            “The best decision we made for our business. The results have been incredible.”
+          </p>
+
+          <div class="flex items-center gap-4 mt-6">
+            <img
+              src="https://i.pravatar.cc/100?img=12"
+              class="w-12 h-12 rounded-full"
+            />
+            <div>
+              <h4 class="font-bold">John Smith</h4>
+              <p class="text-sm text-gray-500">CEO, TechCorp</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-8 rounded-xl shadow">
+          <p class="text-gray-600 italic">
+            “Outstanding service and support. They truly understand our needs.”
+          </p>
+
+          <div class="flex items-center gap-4 mt-6">
+            <img
+              src="https://i.pravatar.cc/100?img=25"
+              class="w-12 h-12 rounded-full"
+            />
+            <div>
+              <h4 class="font-bold">Sarah Johnson</h4>
+              <p class="text-sm text-gray-500">Founder, Design Studio</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="py-16 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+
+      <h2 class="text-3xl font-bold text-center mb-12">
+        Simple, Transparent Pricing
+      </h2>
+
+      <div class="
+        grid
+        grid-cols-1
+        md:grid-cols-2
+        lg:grid-cols-3
+        gap-8
+      ">
+
+        <div class="bg-white rounded-xl shadow p-8">
+          <h3 class="text-2xl font-bold">Starter</h3>
+
+          <div class="mt-4">
+            <span class="text-5xl font-bold">$29</span>
+            <span class="text-gray-500">/mo</span>
+          </div>
+
+          <ul class="mt-6 space-y-3 text-gray-600">
+            <li>✔ Basic Features</li>
+            <li>✔ 5 Projects</li>
+            <li>✔ Basic Support</li>
+          </ul>
+
+          <button class="
+            w-full
+            mt-8
+            bg-indigo-600
+            text-white
+            py-3
+            rounded-lg
+            hover:bg-indigo-700
+          ">
+            Get Started
+          </button>
+        </div>
+
+        <!-- POPULAR -->
+        <div class="
+          bg-white
+          rounded-xl
+          shadow-xl
+          border-2 border-indigo-600
+          p-8
+          scale-100 md:scale-105
+        ">
+          <h3 class="text-2xl font-bold">Professional</h3>
+
+          <div class="mt-4">
+            <span class="text-5xl font-bold">$99</span>
+            <span class="text-gray-500">/mo</span>
+          </div>
+
+          <ul class="mt-6 space-y-3 text-gray-600">
+            <li>✔ Advanced Features</li>
+            <li>✔ Unlimited Projects</li>
+            <li>✔ Priority Support</li>
+          </ul>
+
+          <button class="
+            w-full
+            mt-8
+            bg-indigo-600
+            text-white
+            py-3
+            rounded-lg
+            hover:bg-indigo-700
+          ">
+            Get Started
+          </button>
+        </div>
+
+        <div class="bg-white rounded-xl shadow p-8">
+          <h3 class="text-2xl font-bold">Enterprise</h3>
+
+          <div class="mt-4">
+            <span class="text-5xl font-bold">$299</span>
+            <span class="text-gray-500">/mo</span>
+          </div>
+
+          <ul class="mt-6 space-y-3 text-gray-600">
+            <li>✔ Custom Features</li>
+            <li>✔ Dedicated Support</li>
+            <li>✔ SLA Agreement</li>
+          </ul>
+
+          <button class="
+            w-full
+            mt-8
+            bg-indigo-600
+            text-white
+            py-3
+            rounded-lg
+            hover:bg-indigo-700
+          ">
+            Contact Sales
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+    <div class="max-w-3xl mx-auto">
+
+      <h2 class="text-3xl font-bold text-center mb-12">
+        Get in Touch
+      </h2>
+
+      <form class="bg-white p-8 rounded-2xl shadow">
+
+        <div class="space-y-6">
+
+          <input
+            type="text"
+            placeholder="Name"
+            class="
+              w-full
+              border
+              border-gray-300
+              rounded-lg
+              px-4 py-3
+              focus:outline-none
+              focus:ring-2
+              focus:ring-indigo-500
+            "
+          />
+
+          <input
+            type="email"
+            placeholder="Email"
+            class="
+              w-full
+              border
+              border-gray-300
+              rounded-lg
+              px-4 py-3
+              focus:outline-none
+              focus:ring-2
+              focus:ring-indigo-500
+            "
+          />
+
+          <textarea
+            rows="5"
+            placeholder="Message"
+            class="
+              w-full
+              border
+              border-gray-300
+              rounded-lg
+              px-4 py-3
+              focus:outline-none
+              focus:ring-2
+              focus:ring-indigo-500
+            "
+          ></textarea>
+
+          <button class="
+            w-full
+            bg-indigo-600
+            text-white
+            py-4
+            rounded-lg
+            font-semibold
+            hover:bg-indigo-700
+          ">
+            Send Message
+          </button>
+
+        </div>
+
+      </form>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-950 text-white py-14 px-4 sm:px-6 lg:px-8">
+    <div class="
+      max-w-7xl
+      mx-auto
+      grid
+      grid-cols-1
+      md:grid-cols-2
+      lg:grid-cols-4
+      gap-10
+    ">
+
+      <!-- COL -->
+      <div>
+        <h3 class="text-2xl font-bold mb-4">ANIZAA-COMPANY</h3>
+        <p class="text-gray-400">
+          Transform your business with our cutting-edge solutions.
+        </p>
+      </div>
+
+      <!-- COL -->
+      <div>
+        <h4 class="font-semibold text-lg mb-4">Quick Links</h4>
+
+        <ul class="space-y-2 text-gray-400">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- COL -->
+      <div>
+        <h4 class="font-semibold text-lg mb-4">Legal</h4>
+
+        <ul class="space-y-2 text-gray-400">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+
+      <!-- COL -->
+      <div>
+        <h4 class="font-semibold text-lg mb-4">Connect</h4>
+
+        <ul class="space-y-2 text-gray-400">
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="
+      border-t
+      border-gray-800
+      mt-10
+      pt-6
+      text-center
+      text-gray-500
+    ">
+      © 2026 ANIZAA-COMPANY. All copyrights .
+    </div>
+  </footer>
+
+</body>
+</html>
